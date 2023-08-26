@@ -40,9 +40,9 @@ try_focus_visible() {
 main() {
 	fullscreen_displays="$(get_fs_displays)"
 
-	is_empty "$fullscreen_displays" && focus 1 && return
+	is_empty "$fullscreen_displays" && focus 1 && return 1
 
-	try_focus_visible "$fullscreen_displays" && return
+	try_focus_visible "$fullscreen_displays" && return 1
 
 	focus "$(first "$fullscreen_displays")"
 }
