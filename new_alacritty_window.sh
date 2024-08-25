@@ -3,5 +3,5 @@
 alacritty_output=$(alacritty msg create-window 2>/dev/null)
 
 if [ -z "$alacritty_output" ]; then
-  open /Applications/Alacritty.app --args -e tmux
+  open /Applications/Alacritty.app
 fi
