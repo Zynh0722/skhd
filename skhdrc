@@ -18,7 +18,7 @@ cmd - 6 : yabai -m space --focus 6
 cmd - 7 : yabai -m space --focus 7
 cmd - 8 : yabai -m space --focus 8
 cmd - 9 : yabai -m space --focus 9
-cmd - 0 : ~/.config/skhd/yabai-swap-to-fullscreen.sh
+cmd - 0x32 : ~/.config/skhd/yabai-swap-to-fullscreen.sh
 
 
 # moving windows
@@ -31,6 +31,6 @@ cmd + shift - 6 : yabai -m window --space 6
 cmd + shift - 7 : yabai -m window --space 7
 cmd + shift - 8 : yabai -m window --space 8
 cmd + shift - 9 : yabai -m window --space 9
-cmd + shift - 0 : yabai -m window --toggle native-fullscreen
+cmd + shift - 0x32 : yabai -m window --toggle native-fullscreen
 
 # cmd + alt - 4 : "cmd + shift - 4"
