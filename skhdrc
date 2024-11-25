@@ -5,8 +5,8 @@ alt - t : ~/.config/yabai/yabaiExe -m window --toggle float --grid 4:4:1:1:2:2
 cmd - return : ~/.config/skhd/new_alacritty_window.sh
 
 # rebind space switching
-ctrl - left : ~/.config/yabai/yabaiExe -m space --focus prev || /opt/homebrew/bin/yabai -m space --focus last
-ctrl - right : ~/.config/yabai/yabaiExe -m space --focus next || /opt/homebrew/bin/yabai -m space --focus first
+ctrl - left : ~/.config/yabai/yabaiExe -m space --focus prev || ~/.config/yabai/yabaiExe -m space --focus last
+ctrl - right : ~/.config/yabai/yabaiExe -m space --focus next || ~/.config/yabai/yabaiExe -m space --focus first
 
 # focusing specific spaces
 cmd - 1 : ~/.config/yabai/yabaiExe -m space --focus 1
